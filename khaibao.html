@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khai báo y tế</title>
+</head>
+<body>
+    <div style="height: 100%; width: 600px;padding-bottom: 40px; background-color: rgb(177, 216, 145);">
+          <div style="width: 100% ; background-color: green; text-align: center;">
+            <h3>Khai báo y tế <br> Bệnh viện nhi trung ương</h3>
+            <p>Việc cung cấp thông tin và tham gia của Ông/Bà là tự nguyện và trung thực vì mục đích chống dịch covid-19</p>
+        </div>
+        <div>
+            <input type="radio" name="thongtin"  value="benhnhan" checked> Bệnh Nhân 
+            <input type="radio" name="thongtin" value="nguoinha"checked > Người nhà
+            <input type="radio" name="thongtin" value="khaiho"checked> Khai hộ <br>
+        </div>
+        <div>
+            <p>Mã bệnh nhân <span style="color: red;">(*)</span></p>
+            <input style="width: 98% ; height: 30px;" type="text"  placeholder="Nhập mã bệnh nhân" size="30" maxlength="40">
+            <p>Họ và Tên <span style="color: red;">(*)</span></p>
+            <input style="width: 98%; height: 30px;" type="text" placeholder="Nhập họ tên" size="30" maxlength="40">
+            <p>Ngày sinh</p>
+            <input type="date" size="30" maxlength="40">
+            <p>Giới tính </p>
+            <input type="radio" name="gtinh" value="Nam" checked> Nam 
+            <input type="radio" name="gtinh" value="Nu" checked> Nữ
+            <p>Số điện thoại <span style="color: red;">(*)</span></p>
+            <input style="width: 98%; height: 30px;"" type="number" placeholder="Số điện thoại liên hệ " size="30" maxlength="40">
+            <p>Giấy tờ </p>
+            <select  name="Giấy tờ">
+                <option>CMND</option>
+                <option>CCCD</option>
+                <option>Hộ chiếu </option>
+                <option selected value="Giấy tờ ">Giấy tờ </option>
+                <input style="width: 515px;" type="number" size="19" placeholder="Nhập số " maxlength="40">
+             </select>
+            <p>Địa Chỉ <span style="color: red;">(*)</span></p>
+            <input style="width: 98%; height: 30px;"" type="text" size="30" maxlength="40" placeholder="Địa chỉ">
+            <p>Lý do khám <span style="color: red;">(*)</span></p>
+            <input style="width: 98%; height: 30px;"" type="text" size="30" maxlength="40" placeholder="Khám, chữa bệnh ">
+            <p>Tình trạng sức khỏe<span style="color: red;">(*)</span></p>
+            <input style="width: 98%; height: 70px;" type="text"  maxlength="100%" placeholder="Mô tả tình trạng sức khỏe">
+            <p>Đặt lịch </p>
+            <input type="datetime-local">
+           
+        </div>
+        <textarea name="tinhtrang" id="suckhoe" cols="79" rows="0">khaibao</textarea>
+        <div style="padding-top: 20px; width: 50px; height: 50px;"> <p style="border: 1px solid black; background-color: white; ">Gửi</p></div>
+    </div>
+</body>
+</html>
